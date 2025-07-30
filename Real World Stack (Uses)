@@ -1,0 +1,35 @@
+🧩 Combined Architecture: Real-World Stack
+
+🔧 Backend + Core Engine (Rust)
+Rust is used for:
+- Game mechanics or physics engine
+- Authentication, hashing, crypto
+- High-performance data processing (e.g. matchmaking, recommendation systems)
+- WASM modules for shared logic
+
+🖥️ Backend Platform (Java)
+Java powers:
+- Scalable backend API servers (Spring Boot, REST/gRPC)
+- Legacy system integration (databases, enterprise systems)
+- JVM thread pooling, database ORM, and security
+
+📱 Mobile + Frontend (Kotlin)
+Kotlin runs:
+- Native Android app UI/UX
+- Calls to backend APIs or native Rust libraries
+- ViewModels, user profiles, and app logic
+- Jetpack Compose or XML UI
+
+
+🔄 How They Work Together
+
+Component              | Language Used   | Purpose
+-----------------------|-----------------|---------------------------------------------------------
+Physics/Game Engine    | Rust            | Fast logic, memory-safe, portable to WASM or FFI
+API Backend            | Java            | Stable, scalable REST APIs and microservices
+Mobile App             | Kotlin          | Beautiful UI, seamless user experience
+Shared Logic           | Rust            | Compiled to .so / .dll for Kotlin to use via JNI
+Authentication Logic   | Rust            | Secure password hashing, signature checks
+Network API Calls      | Kotlin ↔ Java   | Retrofit/OkHttp in Kotlin calls Java services
+Storage / DB Access    | Java            | Postgres/MySQL via Hibernate or JPA
+
