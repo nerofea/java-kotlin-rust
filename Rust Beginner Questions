@@ -1,0 +1,30 @@
+🦀 20 Rust Questions for Onboarding
+
+👶
+1. What is the purpose of the main() function in Rust?
+2. How do you declare a variable in Rust?
+3. What is the difference between let and let mut?
+4. What does ownership mean in Rust?
+5. How does borrowing work, and what is & used for?
+6. How do you define a struct?
+7. How do you create a vector and iterate through it?
+8. What is the difference between String and &str?
+9. What is a Result<T, E> and when is it used?
+10. What does the ? operator do?
+
+👨‍🔬 
+11. What are lifetimes and why do we need them?
+12. How do you write and call a function with references?
+13. What is pattern matching and how is match used?
+14. How is error handling in Rust different from Java/Kotlin?
+15. How do you import and use external crates in Cargo.toml?
+16. How do traits compare to Java interfaces?
+17. How would you build a basic command-line tool in Rust?
+18. What are enums and how are they different from structs?
+19. How can you write multithreaded code safely in Rust?
+20. How would you integrate Rust into a Kotlin/Android app (FFI or shared lib)?
+
+🧠 Concept Definitions
+- Native binary: Compiled directly into machine code that runs on the CPU without requiring a virtual machine or interpreter.
+- Bytecode: Intermediate code run by a virtual machine like the JVM; it is not machine code but portable and optimized.
+- Native (in context): Means compiled to run on a specific OS/CPU architecture, as opposed to virtualized or interpreted.
