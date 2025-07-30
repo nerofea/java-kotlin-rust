@@ -4,7 +4,7 @@ class UserProfile {
     String username;
     /* this is taking a string value of whatever the username is and adding it to the user profile*/
     int level;
-    /* this is taking a numberical value of whatever the level is and adding it to the user profile*/
+    /* this is taking a numerical value of whatever the level is and adding it to the user profile*/
     boolean isPremium;
     /* this is checking to see if the User has premium or not and adding it to the user profile. Im assuming for some type of subscription based application*/
 
