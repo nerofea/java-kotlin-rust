@@ -1,0 +1,59 @@
+🧪 Exercise Instructions:  Java / Kotlin / Rust 
+
+==================================================
+Exercise 1: Daily Login Streak Tracker
+==================================================
+🎯 Goal:
+Track and update a user's daily login streak count based on the last login date and today's date.
+
+🧩 Instructions:
+- Define a variable `currentStreak` (initially set to 3).
+- Define another variable `lastLogin` with a fixed date (e.g. July 29, 2025).
+- Compare it to today’s date using your language’s date API.
+- If the last login was exactly yesterday, increment the streak.
+- If the last login was before yesterday, reset the streak to 1.
+- Print the updated streak value.
+
+💡 Real-world context:
+Used in fitness apps, gamified learning platforms, or reward programs to track user consistency.
+
+==================================================
+Exercise 2: User Input Validator (Minimum Age 18)
+==================================================
+🎯 Goal:
+Build a small input handler that accepts user age and checks if the person is eligible (18+).
+
+🧩 Instructions:
+- Prompt the user for their age (as an integer).
+- Read the input and validate it (handle invalid input like letters or empty values).
+- If the user is 18 or older → print "Access granted."
+- If under 18 → print "You must be at least 18."
+- Optional: Handle edge cases like negative numbers or empty string input.
+
+💡 Real-world context:
+Used in age-restricted services like games, streaming platforms, or ID verification.
+
+==================================================
+Exercise 3: Random Loot Generator
+==================================================
+🎯 Goal:
+Simulate a random loot drop from a predefined list of items.
+
+🧩 Instructions:
+- Create a list/array of loot items (e.g. "Sword", "Shield", "Potion", "Gold").
+- Use a random function to select one item from the list at runtime.
+- Print out the selected item in the format: "You received: <item>".
+
+💡 Real-world context:
+Used in games, trading card simulators, reward boxes, or randomized promotions.
+
+==================================================
+✅ Developer Checklist
+==================================================
+| Task                                            | Done |
+|-------------------------------------------------|------|
+| Uses correct syntax for variables and types     |      |
+| Imports correct date/time/input/random libraries|      |
+| Handles edge cases and invalid input            |      |
+| Tests with multiple scenarios                   |      |
+| Explains their logic after implementation       |      |
