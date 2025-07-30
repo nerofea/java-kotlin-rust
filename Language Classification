@@ -1,0 +1,7 @@
+🧬 Language Classification
+
+Language | Type(s)                                                                       | Description
+---------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------
+Java     | OOP (Object-Oriented), Static Typing, GC-based, Class-based                   | Uses classes, inheritance, and garbage collection. Code is compiled to JVM bytecode.
+Kotlin   | Multi-paradigm (OOP + Functional), Statically Typed, JVM & Native             | Interoperable with Java. Designed for concise syntax, null safety, and modern app development.
+Rust     | System-level, Statically Typed, Ownership-based, Functional + Imperative      | Compiles to native machine code. No garbage collector. Focuses on memory safety, performance, and concurrency.
