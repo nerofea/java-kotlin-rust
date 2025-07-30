@@ -1,0 +1,30 @@
+☕ 20 Java Questions for Onboarding
+
+👶 
+1. What is the purpose of the public static void main(String[] args) method?
+2. How do you declare and initialize variables in Java?
+3. What are the primitive data types in Java?
+4. What is the difference between a class and an object?
+5. How do you define and use methods?
+6. What is method overloading?
+7. How do you use if-else and switch-case statements?
+8. How do you create arrays and loop through them?
+9. What is the difference between ArrayList and LinkedList?
+10. What are packages and how do you import them?
+
+👨‍🔬 
+11. What is inheritance and how is it implemented?
+12. What is polymorphism and how does it work in Java?
+13. What is the difference between abstract classes and interfaces?
+14. How is exception handling done in Java?
+15. What are Java annotations and why are they used?
+16. How does Java handle memory (GC, heap, stack)?
+17. What is multithreading and how is it implemented?
+18. What is the difference between == and .equals()?
+19. How do you work with Java Streams?
+20. How would you call native Rust code from Java using JNI?
+
+🧠 Concept Definitions
+- Bytecode: The compiled form of Java code that runs on the Java Virtual Machine (JVM).
+- Native: A method written in a platform-specific language like C or Rust and called from Java using the Java Native Interface (JNI).
+- Native binary: Refers to compiled machine code that does not require the JVM and runs directly on the hardware.
