@@ -1,0 +1,10 @@
+✅ Summary of Paradigms
+
+Feature                    | Java       | Kotlin     | Rust
+---------------------------|------------|------------|-------------------------------------
+Object-Oriented            | ✅ Yes     | ✅ Yes     | ✅ Yes (via struct + impl)
+Functional Programming     | ⚠️ Limited | ✅ Good    | ✅ Strong
+Memory Safety              | ⚠️ GC only | ⚠️ GC only | ✅ Ownership + Borrow Checker
+Manual Memory Control      | ❌         | ❌         | ✅ Yes
+Concurrency (Safe Threads) | ⚠️ Manual  | ⚠️ Manual  | ✅ Built-in safety
+Compiles To                | JVM Bytecode | JVM/Native | Native Binary
