@@ -1,0 +1,25 @@
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class Auth {
+    public static String hashPassword(String password) throws NoSuchAlgorithmException {
+        MessageDigest md = MessageDigest.getInstance("SHA-256");
+        byte[] hash = md.digest(password.getBytes());
+        StringBuilder hexString = new StringBuilder();
+        for (byte b : hash) {
+            hexString.append(String.format("%02x", b));
+        }
+        return hexString.toString();
+    }
+
+    public static void main(String[] args) throws NoSuchAlgorithmException {
+        String input = "hunter2";
+        String stored = hashPassword("hunter2");
+
+        if (hashPassword(input).equals(stored)) {
+            System.out.println("Login successful!");
+        } else {
+            System.out.println("Access denied.");
+        }
+    }
+}
