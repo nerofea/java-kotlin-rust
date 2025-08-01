@@ -8,7 +8,7 @@ class UserProfile {
     boolean isPremium;
 /* This is the builder of the UserProfile using the variables assigned username,level, and checking if it isPremium or not. Public means it can be accessed by other classes*/
     public UserProfile(String username, int level, boolean isPremium) {
-      /*this is assigning the value of username to the variable username, level and isPremium*/
+      /*this is assigning the parameter of username to the variable username, level and isPremium*/
         this.username = username;
         this.level = level;
         this.isPremium = isPremium;
@@ -20,6 +20,7 @@ class UserProfile {
     }
 /*This is the main method. Strting point of where the program begins to run. Its creating a new UserProfile object and then calls a method to display it*/
     public static void main(String[] args) {
+      /*This is creating a new profile with the value of "player_01", 5, true*/
         UserProfile user = new UserProfile("player_01", 5, true);
         user.printProfile();
     }
