@@ -9,9 +9,9 @@ data class UserProfile(
 )
 /*this is the main function where the program starts execution*/
 fun main() {
-    /*  This line creates a variable named 'user'. 
+    /*  This line creates a variable named user. 
    It stores a new instance of the UserProfile class, 
-   and assigns it the values: username = "player_01", level = 5, isPremium = true.*/
+   and assigns it the values player_01  level 5, isPremium true.*/
     val user = UserProfile("player_01", 5, true)
     /*this prints all the values out to the screen*/
     println("User: ${user.username}, Level: ${user.level}, Premium: ${user.isPremium}")
