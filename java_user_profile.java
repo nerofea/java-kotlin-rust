@@ -18,7 +18,7 @@ class UserProfile {
       /*this is outputting the data that was collectued during the userprofile creation to the screen*/
         System.out.println("User: " + username + ", Level: " + level + ", Premium: " + isPremium);
     }
-/*This is the main method. Strting point of where the program begins to run. Its creating a new UserProfile object and then calls a method to display it*/
+/*This is the main method. Starting point of where the program begins to run. Its creating a new UserProfile object and then calls a method to display it*/
     public static void main(String[] args) {
       /*This is creating a new profile with the value of "player_01", 5, true and printing it to the screen*/
         UserProfile user = new UserProfile("player_01", 5, true);
