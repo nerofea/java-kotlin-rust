@@ -1,25 +1,24 @@
-  /* the class is defining new reference type. This will take all the data that is stored inside of it and create a UserProfile with whatver the Username, Level and if they pay the premiumfee.
-    This is making a reference for a Userprofile*/
+  /* the class is a template that defines a new data type called UserProfile*/
 class UserProfile {
-    /* this is assigning the value of username to the variable username*/
+    /* this is declaring the variable username that can hold a string value*/
     String username;
-   /* this is assigning the value of number to the variable Level*/
+   /* this is declaring the variable that can hold a numerical value*/
     int level;
-      /* this is assinging the value of true or false to the variable isPremium*/
+      /* this this is declaring the variable that can hold true/false*/
     boolean isPremium;
-/*A public class member or constructor is accessible throughout the package where it is declared and from any other package, provided the package in which it is declared is observable*/
+/* This is the builder of the UserProfile using the variables assigned username,level, and checking if it isPremium or not. Public means it can be accessed by other classes*/
     public UserProfile(String username, int level, boolean isPremium) {
       /*this is assigning the value of username to the variable username, level and isPremium*/
         this.username = username;
         this.level = level;
         this.isPremium = isPremium;
     }
-/*public means this can be accessed from anywhere, void indicates that the method does not return a value. Here it is outputting the String of username i.e SweepTheory, level-1 and isPremium*/
+/*public means this can be accessed by other classes, void indicates that the method does not return a value. Here it is outputting the String of username i.e SweepTheory, level-1 and isPremium*/
     public void printProfile() {
       /*this is outputting the data that was collectued during the userprofile creation to the screen*/
         System.out.println("User: " + username + ", Level: " + level + ", Premium: " + isPremium);
     }
-
+/*This is the main method. Strting point of where the program begins to run. Its creating a new UserProfile object and then calls a method to display it*/
     public static void main(String[] args) {
         UserProfile user = new UserProfile("player_01", 5, true);
         user.printProfile();
