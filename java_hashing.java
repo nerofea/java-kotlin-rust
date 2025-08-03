@@ -23,14 +23,20 @@ public class Auth {
         //this is returning the new hexidecimal string
         return hexString.toString();
     }
-
+        //This is where the code starts executing
     public static void main(String[] args) throws NoSuchAlgorithmException {
+        //this is creating a variable called input with the value of hunter2
         String input = "hunter2";
+        //this is creating a variable called stored with calling the hashPassword() method and giving it the value of hunter2
+        //this would take the password of hunter2 and return it as a hexidecimal string 
         String stored = hashPassword("hunter2");
-
+    //if the input password matches the stored password (comparing their hashes)
         if (hashPassword(input).equals(stored)) {
+            //Print to console "Login successful!
             System.out.println("Login successful!");
+            //if not
         } else {
+            //print Access denied to console
             System.out.println("Access denied.");
         }
     }
