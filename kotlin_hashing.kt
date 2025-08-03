@@ -13,10 +13,14 @@ fun main() {
     val input = "hunter2"
     //creating a variable named stored calling the hashPassword function with the value of hunter2
     val stored = hashPassword("hunter2")
-    //This is checking if the hashed password matches
+ //this is comparing the hashed input password with the stored hashed password
     if (hashPassword(input) == stored) {
+        //if they match output to console Login successful
         println("Login successful!")
+    //if they dont
     } else {
+        //print to console access denied
         println("Access denied.")
     }
 }
+
